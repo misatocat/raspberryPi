@@ -10,5 +10,5 @@ def temperature(temp):
 	else:
 		msg="back to normal"
 
-	slack.api_token = 'xoxp-9915537828-9970349523-9971225204-53ffa6'
+	slack.api_token = 'token file'
 	slack.chat.post_message('#random', msg, username='System')
