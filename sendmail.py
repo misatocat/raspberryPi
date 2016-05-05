@@ -20,7 +20,7 @@ def temperature(temp):
 	"""%(temp)
 
 	username = 'yu63824'
-	password = 'P0cAhont@s'
+	password = 'password'
 
 	server = smtplib.SMTP ('smtp.gmail.com',587)
 	server.ehlo()

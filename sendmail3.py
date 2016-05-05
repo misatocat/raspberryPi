@@ -7,7 +7,7 @@ class sendmail:
     def __init__(self):
         self.mail_host="smtp.gmail.com"
         self.mail_user="yu63824@gmail.com"
-        self.mail_passwd="P0cAhont@s"
+        self.mail_passwd="password"
         self.postfix="gmail.com"
         self.mailto="yu63824@e-united.com.tw,misatocat@gmail.com"
     def send(self,subject,content):
